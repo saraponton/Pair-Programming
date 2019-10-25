@@ -16,4 +16,11 @@ public class PairProgramming {
                 content = sc.nextLine();
                 list.add(content);
             }
+	   sc.close();
+        } catch (FileNotFoundException fnf) {
+            fnf.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("\nProgram terminated Safely...");
+        }
             

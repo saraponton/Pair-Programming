@@ -23,12 +23,6 @@ public class PairProgramming {
             e.printStackTrace();
             System.out.println("\nProgram terminated Safely...");
         }
-        Collections.sort(list);
-
-        for (String s : list)
-            System.out.println(s);
-
-
     }
 }
 

@@ -36,5 +36,17 @@ public class PairProgramming {
    	 int count =100000;
    	 String temp;
 
+    for (int i = 0; i < count; i++)
+      {
+        for (int j = i + 1; j < count; j++) {
+                if (yourArray[i].compareTo(yourArray[j])>0)
+               {
+                    temp = yourArray[i];
+                    yourArray[i] = yourArray[j];
+                 yourArray[j] = yourArray;
+            }
+        }
+    }
+
 }
 

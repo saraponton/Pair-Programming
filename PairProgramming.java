@@ -23,6 +23,18 @@ public class PairProgramming {
             e.printStackTrace();
             System.out.println("\nProgram terminated Safely...");
         }
+
     }
+	Scanner file1 = new Scanner(new File("/Users/saraponton/IdeaProjects/SoftDev/src/unsorteddict.txt"));
+    	StringBuilder sb = new Stringbuilder();
+    	while(file.hasNext()) {
+        sb.append(file1.nextLine());
+   	 }
+
+    	String[] yourArray = sb.toString().split("  ");
+
+   	 int count =100000;
+   	 String temp;
+
 }
 
